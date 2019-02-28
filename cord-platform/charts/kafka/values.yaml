@@ -6,7 +6,7 @@
 replicas: 3
 
 ## The kafka image repository
-image: "confluentinc/cp-kafka"
+image: "akrainoenea/cp-kafka"
 
 ## The kafka image tag
 imageTag: "4.1.2-2"
@@ -131,7 +131,7 @@ external:
   firstListenerPort: 31090
   domain: cluster.local
   init:
-    image: "lwolf/kubectl_deployer"
+    image: "iecedge/kubectl_deployer_arm64"
     imageTag: "0.4"
     imagePullPolicy: "IfNotPresent"
 
@@ -232,10 +232,10 @@ prometheus:
     enabled: false
 
     ## The image to use for the metrics collector
-    image: solsson/kafka-prometheus-jmx-exporter@sha256
+    image: iecedge/kafka-prometheus-jmx-exporter_arm64
 
     ## The image tag to use for the metrics collector
-    imageTag: a23062396cd5af1acdf76512632c20ea6be76885dfc20cd9ff40fb23846557e8
+    imageTag: misc-dockerfiles
 
     ## Interval at which Prometheus scrapes metrics, note: only used by Prometheus Operator
     interval: 10s
@@ -256,7 +256,7 @@ prometheus:
     enabled: false
 
     ## The image to use for the metrics collector
-    image: danielqsj/kafka-exporter
+    image: iecedge/kafka-exporter_arm64
 
     ## The image tag to use for the metrics collector
     imageTag: v1.2.0

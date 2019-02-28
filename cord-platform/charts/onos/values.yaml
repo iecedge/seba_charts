@@ -21,13 +21,13 @@ replicaCount: 1
 
 images:
   onos:
-    repository: 'onosproject/onos'
+    repository: 'cachengo/onos'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   # keep in sync with: https://github.com/helm/charts/blob/master/stable/filebeat/values.yaml
   log_agent:
-    repository: docker.elastic.co/beats/filebeat-oss
+    repository: akrainoenea/filebeat-oss
     tag: 6.4.2
     pullPolicy: IfNotPresent
 

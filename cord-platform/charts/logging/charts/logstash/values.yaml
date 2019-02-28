@@ -9,7 +9,7 @@ updateStrategy:
 terminationGracePeriodSeconds: 30
 
 image:
-  repository: docker.elastic.co/logstash/logstash-oss
+  repository: akrainoenea/logstash
   tag: 6.4.2
   pullPolicy: IfNotPresent
   ## Add secrets manually via kubectl on kubernetes cluster and reference here
@@ -159,7 +159,7 @@ exporter:
   logstash:
     enabled: false
     image:
-      repository: bonniernews/logstash_exporter
+      repository: akrainoenea/logstash_explorer
       tag: v0.1.2
       pullPolicy: IfNotPresent
     env: {}

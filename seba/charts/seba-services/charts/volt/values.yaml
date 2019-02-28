@@ -23,7 +23,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 image:
-  repository: 'xosproject/volt-synchronizer'
+  repository: 'cachengo/volt-synchronizer'
   tag: '{{ .Chart.AppVersion }}'
   pullPolicy: 'Always'
 

@@ -97,7 +97,7 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           volumeMounts:
             - name: config
-              mountPath: "/etc/grafana/grafana.ini"
+              mountPath: "/etc/Same.ini"
               subPath: grafana.ini
             - name: ldap
               mountPath: "/etc/grafana/ldap.toml"

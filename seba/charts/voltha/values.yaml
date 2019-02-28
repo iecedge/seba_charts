@@ -58,47 +58,47 @@ loglevel: "DEBUG"
 
 images:
   vcore:
-    repository: 'voltha/voltha-voltha'
+    repository: 'cachengo/voltha-voltha'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   vcli:
-    repository: 'voltha/voltha-cli'
+    repository: 'cachengo/voltha-cli'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   ofagent:
-    repository: 'voltha/voltha-ofagent'
+    repository: 'cachengo/voltha-ofagent'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   netconf:
-    repository: 'voltha/voltha-netconf'
+    repository: 'cachengo/voltha-netconf'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   envoy_for_etcd:
-    repository: 'voltha/voltha-envoy'
+    repository: 'cachengo/voltha-envoy'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   alarm_generator:
-    repository: 'voltha/voltha-alarm-generator'
+    repository: 'cachengo/voltha-alarm-generator'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   freeradius:
-    repository: 'tpdock/freeradius'
-    tag: '2.2.9'
+    repository: 'cachengo/freeradius'
+    tag: '2.2.8'
     pullPolicy: 'Always'
 
   http_backend:
-    repository: 'gcr.io/google_containers/defaultbackend'
+    repository: 'gcr.io/google_containers/defaultbackend-arm64'
     tag: '1.4'
     pullPolicy: 'Always'
 
   ingress_controller:
-    repository: 'quay.io/kubernetes-ingress-controller/nginx-ingress-controller'
+    repository: 'quay.io/kubernetes-ingress-controller/nginx-ingress-controller-arm64'
     tag: '0.10.2'
     pullPolicy: 'Always'
 

@@ -14,7 +14,7 @@
 
 
 image:
-  repository: 'opencord/sadis-server'
+  repository: 'cachengo/sadis-server'
   tag: '{{ .Chart.AppVersion }}'
   pullPolicy: 'Always'
 

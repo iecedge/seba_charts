@@ -23,7 +23,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 image:
-  repository: 'xosproject/onos-synchronizer'
+  repository: 'cachengo/onos-synchronizer'
   tag: '{{ .Chart.AppVersion }}'
   pullPolicy: 'Always'
 
