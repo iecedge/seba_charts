@@ -23,7 +23,7 @@ fullnameOverride: ""
 
 images:
   tosca_loader:
-    repository: 'xosproject/tosca-loader'
+    repository: 'cachengo/tosca-loader'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
