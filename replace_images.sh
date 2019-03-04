@@ -41,7 +41,7 @@ CONTAINER_REPLACEMENTS=(
   'xosproject/kubernetes-synchronizer,cachengo/kubernetes-synchronizer'
   'xosproject/tosca-loader,cachengo/tosca-loader'
   'xosproject/xos-api-tester,cachengo/xos-api-tester'
-  'xosproject/fabric-synchronizer,master'
+  'xosproject/fabric-synchronizer,cachengo/fabric-synchronizer'
   'xosproject/fabric-crossconnect-synchronizer,cachengo/fabric-crossconnect-synchronizer'
   'xosproject/onos-synchronizer,cachengo/onos-synchronizer'
   'xosproject/rcord-synchronizer,cachengo/rcord-synchronizer'

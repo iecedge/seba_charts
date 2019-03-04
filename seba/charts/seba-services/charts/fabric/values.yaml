@@ -23,7 +23,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 image:
-  repository: master
+  repository: cachengo/fabric-synchronizer
   tag: "{{ .Chart.AppVersion }}"
   pullPolicy: Always
 
