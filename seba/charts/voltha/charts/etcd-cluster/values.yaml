@@ -23,7 +23,7 @@ autoCompactionRetention: "12"
 
 images:
   etcd:
-    repository: "cachengo/etcd"
+    repository: "akrainoenea/etcd"
     tag: "v3.2.18"
   busybox:
     repository: "busybox"
