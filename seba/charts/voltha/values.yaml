@@ -63,12 +63,12 @@ images:
     pullPolicy: 'Always'
 
   vcli:
-    repository: 'akrainoenea/voltha-cli'
+    repository: 'cachengo/voltha-cli'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   ofagent:
-    repository: 'akrainoenea/voltha-ofagent'
+    repository: 'cachengo/voltha-ofagent'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
@@ -78,12 +78,12 @@ images:
     pullPolicy: 'Always'
 
   envoy_for_etcd:
-    repository: 'akrainoenea/voltha-envoy'
+    repository: 'cachengo/voltha-envoy'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   alarm_generator:
-    repository: 'akrainoenea/voltha-alarm-generator'
+    repository: 'cachengo/voltha-alarm-generator'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
