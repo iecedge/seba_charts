@@ -38,7 +38,7 @@ wpa_wait: 60
 dhcp_wait: 120
 
 # -k option
-kafka_broker: 'cord-platform-kafka.default.svc.cluster.local:9092'
+kafka_broker: ''
 
 images:
   bbsim:
