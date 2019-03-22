@@ -1,5 +1,5 @@
 
-
+POD_NET_CIDR=192.168.0.0/16
 if [ "$(uname -m)" == 'aarch64' ]; then
   ARCH=arm64
   ETCD_IMAGE=quay.io/coreos/etcd:v3.3.9-arm64
@@ -25,7 +25,8 @@ sed "s;{{etcd_image}};$ETCD_IMAGE;g" etcd.yaml > etcd.yaml.tmp
 sed -i "s/{{unsupported_arch}}/$UNSUPPORTED_ARCH/g" etcd.yaml.tmp
 kubectl apply -f etcd.yaml.tmp
 kubectl apply -f https://docs.projectcalico.org/v3.3/getting-started/kubernetes/installation/rbac.yaml
-kubectl apply -f calico.yaml
+sed "s/{{pod_net_cidr}}/$POD_NET_CIDR/g" calico.yaml > calico.yaml.tmp
+kubectl apply -f calico.yaml.tmp
 rm *.tmp
 
 # Setup helm
