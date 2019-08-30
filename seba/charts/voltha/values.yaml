@@ -88,7 +88,7 @@ images:
     pullPolicy: 'Always'
 
   freeradius:
-    repository: 'cachengo/freeradius'
+    repository: 'iecedge/freeradius'
     tag: '2.2.8'
     pullPolicy: 'Always'
 
