@@ -21,7 +21,7 @@ replicaCount: 1
 
 images:
   onos:
-    repository: 'cachengo/onos'
+    repository: 'iecedge/onos_arm64'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
