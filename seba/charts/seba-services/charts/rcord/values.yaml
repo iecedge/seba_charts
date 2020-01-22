@@ -23,7 +23,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 image:
-  repository: 'cachengo/rcord-synchronizer'
+  repository: 'iecedge/rcord-synchronizer_arm64'
   tag: '{{ .Chart.AppVersion }}'
   pullPolicy: 'Always'
 

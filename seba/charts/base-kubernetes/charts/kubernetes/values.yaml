@@ -23,7 +23,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 image:
-  repository: 'cachengo/kubernetes-synchronizer'
+  repository: 'iecedge/kubernetes-synchronizer_arm64'
   tag: '{{ .Chart.AppVersion }}'
   pullPolicy: 'Always'
 

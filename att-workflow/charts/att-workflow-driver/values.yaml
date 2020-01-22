@@ -23,7 +23,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 image:
-  repository: 'akrainoenea/att-workflow-driver-synchronizer'
+  repository: 'iecedge/att-workflow-driver-synchronizer_arm64'
   tag: '{{ .Chart.AppVersion }}'
   pullPolicy: 'Always'
 

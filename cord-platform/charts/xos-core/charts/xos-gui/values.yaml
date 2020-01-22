@@ -16,12 +16,12 @@
 # Docker Images
 images:
   xos_gui:
-    repository: 'cachengo/xos-gui'
+    repository: 'iecedge/xos-gui_arm64'
     tag: "{{ .Chart.AppVersion }}"
     pullPolicy: 'Always'
 
   xos_ws:
-    repository: 'cachengo/xos-ws'
+    repository: 'iecedge/xos-ws_arm64'
     tag: '2.0.1'
     pullPolicy: 'Always'
 

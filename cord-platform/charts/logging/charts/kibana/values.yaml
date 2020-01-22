@@ -1,5 +1,5 @@
 image:
-  repository: "akrainoenea/kibana-oss"
+  repository: "iecedge/kibana-oss_arm64"
   tag: "6.4.2"
   pullPolicy: "IfNotPresent"
 

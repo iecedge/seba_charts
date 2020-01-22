@@ -58,32 +58,32 @@ loglevel: "DEBUG"
 
 images:
   vcore:
-    repository: 'cachengo/voltha-voltha'
+    repository: 'iecedge/voltha-voltha_arm64'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   vcli:
-    repository: 'cachengo/voltha-cli'
+    repository: 'iecedge/voltha-cli_arm64'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   ofagent:
-    repository: 'cachengo/voltha-ofagent'
+    repository: 'iecedge/voltha-ofagent_arm64'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   netconf:
-    repository: 'cachengo/voltha-netconf'
+    repository: 'iecedge/voltha-netconf_arm64'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   envoy_for_etcd:
-    repository: 'cachengo/voltha-envoy'
+    repository: 'iecedge/voltha-envoy_arm64'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   alarm_generator:
-    repository: 'cachengo/voltha-alarm-generator'
+    repository: 'iecedge/voltha-alarm-generator_arm64'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 

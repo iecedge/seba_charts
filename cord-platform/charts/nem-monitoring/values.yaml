@@ -18,7 +18,7 @@ global:
 
 images:
   voltha_kpi_exporter:
-    repository: 'akrainoenea/kafka-topic-exporter'
+    repository: 'iecedge/kafka-topic-exporter_arm64'
     tag: '1.1.2'
     pullPolicy: 'Always'
 

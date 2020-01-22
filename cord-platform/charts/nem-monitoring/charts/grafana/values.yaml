@@ -22,7 +22,7 @@ image:
   #   - myRegistrKeySecretName
 
 downloadDashboardsImage:
-  repository: akrainoenea/curl
+  repository: iecedge/curl_arm64
   tag: latest
   pullPolicy: IfNotPresent
 

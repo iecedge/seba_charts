@@ -24,12 +24,12 @@ fullnameOverride: ""
 
 images:
   tosca_loader:
-    repository: 'cachengo/tosca-loader'
+    repository: 'iecedge/tosca-loader_arm64'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   xos_api_tester:
-    repository: 'cachengo/xos-api-tester'
+    repository: 'iecedge/xos-api-tester_arm64'
     tag: '2.0.6-dev'
     pullPolicy: 'Always'
 
