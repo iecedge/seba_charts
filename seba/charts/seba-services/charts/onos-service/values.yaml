@@ -23,7 +23,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 image:
-  repository: 'cachengo/onos-synchronizer'
+  repository: 'iecedge/onos-synchronizer_arm64'
   tag: '{{ .Chart.AppVersion }}'
   pullPolicy: 'Always'
 

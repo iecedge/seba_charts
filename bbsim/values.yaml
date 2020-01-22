@@ -42,7 +42,7 @@ kafka_broker: ''
 
 images:
   bbsim:
-    repository: 'akrainoenea/voltha-bbsim'
+    repository: 'iecedge/voltha-bbsim_arm64'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 

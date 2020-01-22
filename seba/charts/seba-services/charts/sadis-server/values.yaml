@@ -14,7 +14,7 @@
 
 
 image:
-  repository: 'cachengo/sadis-server'
+  repository: 'iecedge/sadis-server_arm64'
   tag: '{{ .Chart.AppVersion }}'
   pullPolicy: 'Always'
 
